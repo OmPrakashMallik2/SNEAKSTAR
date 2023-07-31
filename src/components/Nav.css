@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.left {
+    float: left;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.right li {
+    margin: 0 20px;
+    font-size: larger;
+}
+
+.right a {
+    margin: 10px;
+    padding: 3px;
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    font-size: medium;
+}
