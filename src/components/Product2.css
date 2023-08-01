@@ -1,29 +1,29 @@
-.home {
+.pr2 {
     display: flex;
     width: 100%;
-    height: auto;
 }
 
-.home-pic img{
+.pr2-pic img{
     width: 100%;
     height: auto;
 }
 
-.home-pic, .home-info {
-    background-color: rgb(53, 53, 53);
+.pr2-pic, .pr2-info {
     flex-basis: 50%;
     box-sizing: border-box;
 }
 
-.home-info {
+.pr2-info {
+    color: white;
+    background-color: black;
     padding: 20px;
 }
-.home-info .homeice{
+.pr2-info .pr2ice{
     padding: 10px;
     font-weight: 700;
     font-size: larger;
 }
-.home-info .btn{
+.pr2-info .btn{
     color: black;
     background-color: white;
     padding: 10px;

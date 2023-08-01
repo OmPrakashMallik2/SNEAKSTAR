@@ -1,9 +1,10 @@
 import React from 'react'
+import "./Reviews.css";
 
 function Reviews() {
   return (
-    <div>
-      <h1>Reviews</h1>
+    <div className='re'>
+      <img src='https://d3vk3ilzkajryp.cloudfront.net/blanko-webp/testimonials.webp'/>
     </div>
   )
 }

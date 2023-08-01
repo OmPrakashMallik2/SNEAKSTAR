@@ -1,29 +1,29 @@
-.home {
+.bulk {
     display: flex;
     width: 100%;
-    height: auto;
 }
 
-.home-pic img{
+.bulk-pic img{
     width: 100%;
     height: auto;
 }
 
-.home-pic, .home-info {
-    background-color: rgb(53, 53, 53);
+.bulk-pic, .bulk-info {
     flex-basis: 50%;
     box-sizing: border-box;
 }
 
-.home-info {
+.bulk-info {
+    color: white;
+    background-color: rgba(161, 97, 0, 0.651);
     padding: 20px;
 }
-.home-info .homeice{
+.bulk-info .bulkice{
     padding: 10px;
     font-weight: 700;
     font-size: larger;
 }
-.home-info .btn{
+.bulk-info .btn{
     color: black;
     background-color: white;
     padding: 10px;
