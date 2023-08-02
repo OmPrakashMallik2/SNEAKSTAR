@@ -18,9 +18,11 @@ function Footer() {
 
         <div>
           <ul>
-            <li><InstagramIcon/></li>
-            <li><FacebookIcon/></li>
-            <li><TwitterIcon/></li>
+            <a href='https://www.instagram.com/mallik_75/'>
+              <li><InstagramIcon /></li>
+            </a>
+            <li><FacebookIcon /></li>
+            <li><TwitterIcon /></li>
           </ul>
         </div>
 

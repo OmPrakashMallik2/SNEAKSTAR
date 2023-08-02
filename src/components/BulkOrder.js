@@ -1,5 +1,6 @@
 import React from 'react'
 import "./BulkOrder.css";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 function BulkOrder() {
   return (
@@ -10,10 +11,13 @@ function BulkOrder() {
       </div>
 
       <div className='bulk-info'>
-        <p>If you're concerned about both fashion and comfort during sports and workouts, opt for this pair of designer running shoes to add some chutzpah to your look. This lace-up running shoe is stable enough on the foot. The specialty of this running shoe is its versatility, breathability and cushioning for safety. Perfect for beginners! Specifications Brand Name: GeraldBlack Gender: MEN Origin: CN(Origin) Sports Type: LIFESTYLE Function: Cushioning Applicable Place: Outdoor Lawn Level Of Practice: Be</p>
-        <p className='price'>1999.00</p>
-        <a className='btn'>learn More</a>
-        <a className='btn'>BUY NOW</a>
+        <p>Upgrade your style and comfort with our designer running shoes! Perfect for sports and workouts, these lace-up shoe
+          s offer stability, breathability, and cushioning for safety. Ideal for beginners, they combine fashion
+          and function seamlessly. Brand: GeraldBlack, Gender: MEN, Sports Type: LIFESTYLE, Function: Cushioning. Get ready t
+          o elevate your active lifestyle! Contact us for more d
+          etails or to place an order. Happy running! </p>
+
+        <a className='btn' href='https://docs.google.com/forms/d/e/1FAIpQLScrPMU5zaS-w_dlj3o6HmjgCXCCNt-q_JqkABDwW39UtofGwA/viewform?usp=sf_link'>CONTECT NOW <ArrowForwardIosIcon /></a>
       </div>
 
     </div>
