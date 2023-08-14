@@ -3,8 +3,8 @@ import React from "react";
 function Video() {
   return (
     <div className="Video">
-      <video controls>
-        <source src={require("../Media/video.mov")} type="video/mp4" />
+      <video autoPlay loop>
+        <source src={require("../Media/shoes_ad.mp4")} type="video/mp4" />
       </video>
     </div>
   );

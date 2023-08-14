@@ -12,7 +12,9 @@ function Product1() {
         <Link to="buynow" className='btn'>BUY NOW</Link>
       </div>
       <div className='pr1-pic'>
-        <img src='https://i.pinimg.com/564x/2f/e0/25/2fe025e8dd0b3445b98a4916fb40efc8.jpg' />
+        {/* <img src='https://i.pinimg.com/564x/2f/e0/25/2fe025e8dd0b3445b98a4916fb40efc8.jpg'  alt='ky yar'/> */}
+        <img src={require("../Media/shoes1.jpg")}  alt='ky yar'/>
+        
       </div>
     </div>
   )

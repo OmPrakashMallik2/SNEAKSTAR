@@ -12,12 +12,15 @@ function App() {
     <div className="App">
       < Nav />
       <Routes>
-        <Route path="/" element={<Main/>}/>
-        <Route path="/pr1" element={<Product1Details/>}/>
-        <Route path="/pr2" element={<Product2Details/>}/>
-        <Route path="/buynow" element={<BuyNow/>}/>
+        <Route path="/" element={<Main />} />
+        <Route path="/pr1" element={<Product1Details />} />
+        <Route path="/pr2" element={<Product2Details />} />
+        <Route path="/buynow" element={<BuyNow />} />
       </Routes>
       < Footer />
+      {/* <a className='txttochat' href="https://wa.me/917352281493?text=Hey,%20i%20want%20to%20know%20more%20about%20the%20product%20">
+        <img className='chat' alt="Chat on WhatsApp" src={require("./Media/wa.webp")} />
+      </a> */}
     </div>
   );
 }

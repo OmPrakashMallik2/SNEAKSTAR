@@ -7,7 +7,8 @@ function Product2() {
     <div className='pr2'>
 
       <div className='pr2-pic'>
-        <img src='https://i.pinimg.com/750x/16/76/7b/16767bce07f7c53e651dff1fcac537da.jpg' />
+        {/* <img src='https://i.pinimg.com/750x/16/76/7b/16767bce07f7c53e651dff1fcac537da.jpg'  alt='ky yar'/> */}
+        <img src={require("../Media/shoes2.jpg")}  alt='ky yar'/>
       </div>
 
       <div className='pr2-info'>
