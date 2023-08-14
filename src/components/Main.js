@@ -9,7 +9,7 @@ import Product2 from './Product2';
 import Reviews from './Reviews';
 import BulkOrder from './BulkOrder';
 import Footer from './Footer';
-import product1Details from './product1Details';
+// import product1Details from './product1Details';
 
 function Main() {
   return (

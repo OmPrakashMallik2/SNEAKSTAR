@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Product2.css";
+import { Link } from 'react-router-dom';
 
 function Product2() {
   return (
@@ -12,8 +13,8 @@ function Product2() {
       <div className='pr2-info'>
         <p>If you're concerned about both fashion and comfort during sports and workouts, opt for this pair of designer running shoes to add some chutzpah to your look. This lace-up running shoe is stable enough on the foot. The specialty of this running shoe is its versatility, breathability and cushioning for safety. Perfect for beginners! Specifications Brand Name: GeraldBlack Gender: MEN Origin: CN(Origin) Sports Type: LIFESTYLE Function: Cushioning Applicable Place: Outdoor Lawn Level Of Practice: Be</p>
         <p className='price'>1999.00</p>
-        <a className='btn'>learn More</a>
-        <a className='btn'>BUY NOW</a>
+        <Link to="pr2" className='btn'>learn More</Link>
+        <Link to="buynow" className='btn'>BUY NOW</Link>
       </div>
 
     </div>

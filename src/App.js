@@ -1,35 +1,22 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Nav from './components/Nav';
-import Home from './components/Home';
-import Video from './components/Video';
-import Product1 from './components/Product1';
-import Product2 from './components/Product2';
-import Reviews from './components/Reviews';
-import BulkOrder from './components/BulkOrder';
 import Footer from './components/Footer';
-import product1Details from './components/product1Details';
 import Main from './components/Main';
 import BuyNow from './components/BuyNow';
-import ProductOne from './Product1/ProductOne';
-
+import Product2Details from './components/Product2Details';
+import Product1Details from './components/Product1Details';
 
 function App() {
   return (
     <div className="App">
       < Nav />
-      {/* < Home/> */}
       <Routes>
         <Route path="/" element={<Main/>}/>
-        <Route path="/pr1" element={<product1Details/>}/>
+        <Route path="/pr1" element={<Product1Details/>}/>
+        <Route path="/pr2" element={<Product2Details/>}/>
         <Route path="/buynow" element={<BuyNow/>}/>
-        <Route path="/product1" element={<ProductOne/>}/>
       </Routes>
-      {/* < Video />
-      < Product1 />
-      < Product2 />
-      < Reviews/>
-      < BulkOrder/> */}
       < Footer />
     </div>
   );

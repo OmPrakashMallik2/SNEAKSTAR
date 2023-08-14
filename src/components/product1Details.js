@@ -1,36 +1,47 @@
 import React from 'react'
-import "./pr1.css";
+import "./Product1Details.css";
 
-function product1Details() {
+function Product1Details() {
   return (
-    <div className='pr11'>
-      <h2>
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-        Hello
-      </h2>
-
+    <div className='Product1Details'>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
+      <h1>product 1 Details</h1>
     </div>
   )
 }
 
-export default product1Details;
+export default Product1Details;
