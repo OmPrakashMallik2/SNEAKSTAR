@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='home-pic'>
-        <img src='https://d3vk3ilzkajryp.cloudfront.net/blanko-webp/king-with-x.webp' alt="photo" />
+        <img src='https://d3vk3ilzkajryp.cloudfront.net/blanko-webp/king-with-x.webp' alt="photu" />
       </div>
       <div className='home-info'>
         <h2>DAWN TO DUSK</h2>
