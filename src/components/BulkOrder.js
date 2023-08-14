@@ -11,7 +11,7 @@ function BulkOrder() {
       </div>
 
       <div className='bulk-info'>
-        <p>Upgrade your style and comfort with our designer running shoes! Perfect for sports and workouts, these lace-up shoe
+        <p>Upgrade your style and comfort with our designer shoes! Perfect for sports and workouts, these lace-up shoe
           s offer stability, breathability, and cushioning for safety. Ideal for beginners, they combine fashion
           and function seamlessly. Brand: GeraldBlack, Gender: MEN, Sports Type: LIFESTYLE, Function: Cushioning. Get ready t
           o elevate your active lifestyle! Contact us for more d

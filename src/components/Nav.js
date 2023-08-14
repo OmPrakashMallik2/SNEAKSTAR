@@ -8,7 +8,7 @@ function Navbar() { // Use camelCase for the component name (Navbar instead of n
   return (
     <div className='nav'>
       <div className='left'>
-        <Link to="/" className='title'>Product</Link>
+        <Link to="/" className='title'>SHOES</Link>
       </div>
       <ul className='right'>
         <li>
