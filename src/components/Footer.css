@@ -5,13 +5,13 @@
 
 .l {
     flex: 0.7;
-    background-color: rgb(93, 24, 24);
+    background-color: rgb(65, 65, 65);
 }
 
 
 .r {
     flex: 0.3;
-    background-color: rgb(9, 55, 9);
+    background-color: rgb(60, 60, 60);
 }
 
 /* footer.css */

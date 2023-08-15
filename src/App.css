@@ -4,3 +4,13 @@
   background-color: black;
   color: white;
 }
+
+.txttochat img {
+  width: 60px;
+  border: solid 4px rgb(255, 255, 255);
+  /* border: solid 4px rgb(30, 152, 56); */
+  border-radius: 50%;
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+}

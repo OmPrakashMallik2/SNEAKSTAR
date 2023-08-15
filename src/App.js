@@ -18,9 +18,9 @@ function App() {
         <Route path="/buynow" element={<BuyNow />} />
       </Routes>
       < Footer />
-      {/* <a className='txttochat' href="https://wa.me/917352281493?text=Hey,%20i%20want%20to%20know%20more%20about%20the%20product%20">
+      <a className='txttochat' href="https://wa.me/917352281493?text=Hey,%20i%20want%20to%20know%20more%20about%20the%20product%20">
         <img className='chat' alt="Chat on WhatsApp" src={require("./Media/wa.webp")} />
-      </a> */}
+      </a>
     </div>
   );
 }
