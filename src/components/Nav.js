@@ -7,19 +7,21 @@ import { Link } from 'react-router-dom';
 function Navbar() { // Use camelCase for the component name (Navbar instead of navbar)
   return (
     <div className='nav'>
+
       <div className='left'>
         <Link to="/" className='title'>SHOES</Link>
       </div>
-      <ul className='right'>
-        <li>
 
-          <li><Link to="/buynow"><FontAwesomeIcon icon={faBagShopping} /></Link></li>
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faUser} />
-        </li>
-        <li><Link to="/buynow">BUY NOW</Link></li>
+      <ul className='right'>
+        
+        <li><Link className='cart' to="/buynow"><FontAwesomeIcon icon={faBagShopping} /></Link></li>
+        
+        <li><FontAwesomeIcon icon={faUser} /></li>
+
+        <li><Link className='buynow' to="/buynow">BUY NOW</Link></li>
+      
       </ul>
+
     </div>
   );
 }

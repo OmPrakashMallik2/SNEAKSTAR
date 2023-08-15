@@ -7,7 +7,7 @@ function BulkOrder() {
     <div className='bulk'>
 
       <div className='bulk-pic'>
-        <img src='https://d3vk3ilzkajryp.cloudfront.net/blanko-webp/boxes.webp' />
+        <img src='https://d3vk3ilzkajryp.cloudfront.net/blanko-webp/boxes.webp' alt='bulk'/>
       </div>
 
       <div className='bulk-info'>

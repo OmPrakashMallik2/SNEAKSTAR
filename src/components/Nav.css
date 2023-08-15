@@ -2,6 +2,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,12 +16,11 @@
 }
 
 .title{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blue;
-    padding-left: 40px;
+    color: black;
+    padding-left: 10px;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 50px;
+    font-weight: 650;
+    font-size: 45px;
 }
 
 .right {
@@ -31,16 +31,25 @@
     padding: 0;
 }
 
-.right li {
-    margin: 0 20px;
-    font-size: larger;
+.right li Link {
+    color: black;
 }
 
-.right a {
-    margin: 10px;
-    padding: 3px;
+.right li {
+    /* color: black; */
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.right li .cart{
+    color: black;
+}
+
+.right li .buynow {
+    margin-right: 10px;
+    font-size: small;
+    padding: 8px 36px;
     text-decoration: none;
     background-color: black;
     color:white;
-    font-size: medium;
 }
