@@ -1,17 +1,26 @@
 import React from 'react'
 import "./Home.css"
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
     <div className='home'>
       <div className='home-pic'>
-        <img src='https://d3vk3ilzkajryp.cloudfront.net/blanko-webp/king-with-x.webp' alt="photu" />
+        <img src={require("../Media/combo.png")} alt="photu" />
+        {/* <img src='https://d3vk3ilzkajryp.cloudfront.net/blanko-webp/king-with-x.webp' alt="photu" /> */}
       </div>
       <div className='home-info'>
-        <h2>WHITE AND BLACK</h2>
-        <p>
-          Rise and shine with Blanko's Dawn perfume, a refreshing morning scent that awakens your senses. And when the sun sets, let Blanko's Dusk perfume take you from day to night with its captivating party notes. Indulge in the ultimate fragrance experience of BLANKO
-        </p>
+
+        <p className='heading'>BLACK & WHITE</p>
+        <p className='combo-details'>Rise and shine with Black and White sneakers, a stylish footwear that skyrocket your fashion sence. And your appearance in your hood.</p>
+        <p>Grab Black & White Combo</p>
+        <p className='headingPrice'>&#x20B9;2999.00 <span>&#x20B9;4999.00</span></p>
+        <p className='disc-combo'>Unlock Savings: Get ₹50.00 Off on Prepaid Orders!</p>
+
+        <div className='btn-cont'>
+          <Link to="/pr1" className='btn'>LEARN MORE</Link>
+          <Link to="/buynow" className='btn'>BUY NOW</Link>
+        </div>
       </div>
     </div>
   )

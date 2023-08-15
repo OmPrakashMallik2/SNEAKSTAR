@@ -1,3 +1,6 @@
+/* Import Montserrat font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
 .bulk {
     display: flex;
     width: 100%;
@@ -14,18 +17,32 @@
 }
 
 .bulk-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Montserrat", sans-serif;
     color: white;
     background-color: rgba(161, 97, 0, 0.651);
-    padding: 20px;
+    padding: 0px 60px;
 }
-.bulk-info .bulkice{
-    padding: 10px;
-    font-weight: 700;
-    font-size: larger;
-}
-.bulk-info .btn{
-    color: black;
-    background-color: white;
-    padding: 10px;
 
+.bulk-info p{
+    font-size: large;
+}
+.bulk-info .bulkreq{
+    font-size: xx-large;
+}
+
+.bulk-info .btn{
+    background-color: transparent;
+    padding: 10px;
+    border: solid 1px white;
+    padding: 10px 35px;
+}
+
+.bulk-info .btn:hover{
+    background-color: white;
+    color: black;
 }
