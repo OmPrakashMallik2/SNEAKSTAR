@@ -1,31 +1,75 @@
+/* Import Montserrat font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
 .pr2 {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
-.pr2-pic img{
-    width: 100%;
-    height: auto;
+.pr2-pic img {
+  width: 100%;
+  height: auto;
 }
 
-.pr2-pic, .pr2-info {
-    flex-basis: 50%;
-    box-sizing: border-box;
+.pr2-pic,
+.pr2-info {
+  flex-basis: 50%;
+  box-sizing: border-box;
 }
 
 .pr2-info {
-    color: white;
-    background-color: black;
-    padding: 20px;
-}
-.pr2-info .pr2ice{
-    padding: 10px;
-    font-weight: 700;
-    font-size: larger;
-}
-.pr2-info .btn{
-    color: black;
-    background-color: white;
-    padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(25, 25, 25);
+  padding: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pr2-info h2 {
+  font-weight: 400;
+  /* color: white; */
+  font-size: 32px;
+}
+
+.pr2-info p {
+  text-align: left;
+  font-size: 24px;
+  /* color: #666; */
+  line-height: 1.5;
+}
+
+.price {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.price span {
+  font-size: 20px;
+  text-decoration: line-through 2px;
+}
+
+.pr2-info .btn-cont {
+  display: flex;
+  gap: 20px;
+}
+
+.pr2-info .btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: solid 1px white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pr2-info .btn:hover {
+  color: black;
+  background-color: white;
 }

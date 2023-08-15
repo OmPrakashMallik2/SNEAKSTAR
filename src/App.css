@@ -19,3 +19,9 @@
   right: 3%;
   bottom: 3%;
 }
+
+.btn {
+  text-decoration: none;
+  border-radius: 4px;
+  color: white;
+}
