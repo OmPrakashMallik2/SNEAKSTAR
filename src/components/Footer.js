@@ -6,62 +6,73 @@ import PaymentsIcon from '@mui/icons-material/Payments';
 import SecurityIcon from '@mui/icons-material/Security';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <div className='Footer'>
-      <div className='l'>
-        <div>
-          <h1>MY SHOES</h1>
+      <div className='main'>
+
+
+        <div className='l'>
+          <div>
+            <h1 className='title'>SHOES</h1>
+          </div>
+
+          <div className='footer-linkes'>
+            <ul className='footer-list'>
+              <li>
+                <a className='social' href='https://www.instagram.com/mallik_75/'>
+                  <InstagramIcon />
+                </a>
+              </li>
+              <li>
+                <a className='social' href='https://www.instagram.com/mallik_75/'>
+                  <FacebookIcon />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className='footer-linkes'>
+            <ul className='footer-list'>
+              <li><Link >PRIVACY POLICY</Link ></li>
+              <li><Link >SHIPPING POLICY</Link ></li>
+              <li><Link >RETURN POLICY</Link ></li>
+              <li><Link >REFUND POLICY</Link ></li>
+              <li><Link >DISCLAIMER POLICY</Link ></li>
+              <li><Link >CANCELLATION POLICY</Link ></li>
+              <li><Link >TERMS OF USE</Link ></li>
+              <li><Link >CONTACT US</Link ></li>
+            </ul>
+          </div>
+
+
         </div>
 
-        <div>
+        <div className='r'>
           <ul>
-            <a href='https://www.instagram.com/mallik_75/'>
-              <li><InstagramIcon /></li>
-            </a>
-            <li><FacebookIcon /></li>
-            <li><TwitterIcon /></li>
+            <li>
+              <LocalShippingIcon />
+              Free LocalShipping
+            </li>
+            <li>
+              <AccountBalanceWalletIcon />
+              Buy now pay latter
+            </li>
+            <li>
+              <PaymentsIcon />
+              Cash on delivery
+            </li>
+            <li className='secure'>
+              <SecurityIcon />
+              100% Payment Protection
+            </li>
           </ul>
         </div>
-
-        <div>
-          <ul>
-            <li><a>Link1</a></li>
-            <li><a>Link1</a></li>
-            <li><a>Link1</a></li>
-            <li><a>Link1</a></li>
-            <li><a>Link1</a></li>
-            <li><a>Link1</a></li>
-            <li><a>Link1</a></li>
-            <li><a>Link1</a></li>
-          </ul>
-        </div>
-
-
       </div>
-
-
-      <div className='r'>
-        <ul>
-          <li>
-            <LocalShippingIcon />
-            Free LocalShipping
-          </li>
-          <li>
-            <AccountBalanceWalletIcon />
-            Buy now pay latter
-          </li>
-          <li>
-            <PaymentsIcon />
-            Cash on delivery
-          </li>
-          <li>
-            <SecurityIcon />
-            100% secure Payments
-          </li>
-        </ul>
+      <div className='footer-2 center'>
+        <p className='copyryt'>© 2023 Om Prakash Mallik. All rights reserved.</p>
       </div>
     </div>
   );

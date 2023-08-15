@@ -24,7 +24,7 @@ function Video() {
       </video>
       <div className="play-pause-button" onClick={togglePlay}>
         <FontAwesomeIcon
-          icon={isPlaying ? faPlay : faPause}
+          icon={isPlaying ? faPause : faPlay}
           className="icon"
         />
       </div>
