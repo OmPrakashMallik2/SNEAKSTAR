@@ -15,7 +15,7 @@ function Product2() {
         <h2>BLACK</h2>
         <p>If you're concerned about both fashion and comfort during sport
           s and workouts, opt for this pair of designer running shoes to add some chu
-          tzpah to your look. This lace-up running shoe is stable enough on the foot.</p>       
+          tzpah to your look.</p>       
         <p className='price'>&#x20B9;1999.00  <span>&#x20B9;2999.00</span></p>
         <div className='btn-cont'>
           <Link to="pr2" className='btn'>Learn More</Link>

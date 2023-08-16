@@ -7,7 +7,7 @@ function Product1() {
     <div className='pr1'>
       <div className='pr1-info'>
         <h2>WHITE</h2>
-        <p>If you're concerned about both fashion and comfort during sports and workouts, opt for this pair of designer running shoes to add some chutzpah to your look. This lace-up running shoe is stable enough on the foot.</p>
+        <p>If you're concerned about both fashion and comfort during sports and workouts, This lace-up running shoe is stable enough on the foot.</p>
         <p className='price'>&#x20B9;1499.00  <span>&#x20B9;2499.00</span></p>
         <div className='btn-cont'>
           <Link to="pr1" className='btn'>Learn More </Link>

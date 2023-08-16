@@ -19,8 +19,8 @@ function Footer() {
             <h1 className='title'>SneakStar</h1>
           </div>
 
-          <div className='footer-linkes'>
-            <ul className='footer-list'>
+          <div className='footer-socials'>
+            <ul className='footer-item'>
               <li>
                 <a className='social' href='https://www.instagram.com/mallik_75/'>
                   <InstagramIcon />
@@ -54,7 +54,7 @@ function Footer() {
           <ul>
             <li>
               <LocalShippingIcon />
-              Free LocalShipping
+              Free Shipping
             </li>
             <li>
               <AccountBalanceWalletIcon />

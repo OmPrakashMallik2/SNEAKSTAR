@@ -15,7 +15,7 @@ function Home() {
 
         <p className='heading'>BLACK & WHITE</p>
         <p className='combo-details'>Rise and shine with Black and White sneakers, a stylish footwear that skyrocket your fashion sence. And your appearance in your hood.</p>
-        <p>Grab Black & White Combo</p>
+        <p className='disc-combo'>Grab Black & White Combo</p>
         <p className='headingPrice'>&#x20B9;2999.00 <span>&#x20B9;5499.00</span></p>
         <p className='disc-combo'>Unlock Savings: Get ₹100.00 Off on Prepaid Orders!</p>
 

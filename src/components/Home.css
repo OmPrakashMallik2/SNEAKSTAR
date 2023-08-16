@@ -12,8 +12,8 @@
 
 .home-pic,
 .home-info {
-  background-color: rgb(0, 91, 0);
-  /* background-color: rgb(53, 53, 53); */
+  /* background-color: rgb(0, 91, 0); */
+  background-color: rgb(146, 40, 40);
   flex-basis: 50%;
   box-sizing: border-box;
 }
@@ -46,8 +46,8 @@
 }
 
 .home-info .btn-cont {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 .home-info .btn {
   background-color: transparent;
@@ -67,13 +67,40 @@
     flex-direction: column; /* Stack the divs vertically */
     padding-top: 20px; /* Adjust the padding for spacing */
   }
-
+  
   .home-pic,
   .home-info {
     flex-basis: 100%; /* Make both divs take full width */
   }
-
+  
   .home-info {
+    margin-top: -30%;
     padding: 20px; /* Adjust the padding for spacing */
+  }
+  
+  .home-info .btn {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .home-info .heading {
+    font-size: 26px;
+  }
+  
+  .home-info .combo-details {
+    font-size: 20px;
+  }
+  
+  .home-info .headingPrice {
+    font-size: 28px;
+  }
+
+  .home-info .disc-combo {
+    font-size: 14px;
+  }
+  
+  .home-info .headingPrice span {
+    font-size: 20px;
   }
 }

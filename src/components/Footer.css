@@ -41,7 +41,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the column width as needed */
   gap: 10px; /* Adjust the gap between items */
-
+  
 }
 
 .footer-list li {
@@ -53,6 +53,16 @@
   color: white;
   font-size: 20px;
   font-weight: 400;
+}
+
+.footer-item {
+  display: flex;
+  list-style: none;
+}
+
+.footer-item li{
+  padding: 10px;
+  font-size: 30px;
 }
 
 .secure {
@@ -98,32 +108,43 @@
   .main {
     flex-direction: column; /* Stack the divs vertically */
   }
-
+  
   .l,
   .r {
     flex: 1; /* Make both sides take full width */
     text-align: center;
   }
-
+  
   .footer-list {
     grid-template-columns: 1fr; /* Single column layout for links */
   }
-
+  
   .footer-list li {
     padding: 10px; /* Adjust padding for smaller spacing */
   }
-
+  
   .footer-list a {
-    font-size: 18px; /* Adjust font size for smaller screens */
+    font-size: 15px; /* Adjust font size for smaller screens */
   }
-
+  
   .l .title {
     padding: 0;
     margin: 0;
     font-size: 40px; /* Adjust title font size for smaller screens */
   }
-
+  
   .social {
     font-size: 40px; /* Adjust social icon size for smaller screens */
+  }
+  
+  .r li {
+    border-bottom: 1px solid rgb(96, 96, 96);
+    font-size: 18px;
+    display: flex;
+    text-align: left;
+  }
+  
+  .center {
+    font-size: 12px;
   }
 }

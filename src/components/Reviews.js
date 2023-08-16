@@ -5,8 +5,8 @@ function Reviews() {
   return (
     <div className='review'>
 
-      <h1>Sharing the love which we received from you 💝</h1>
-      <p1>We cant't keep calm!</p1>
+      <h1 className='re-h3'>Sharing the love which we received from you 💝</h1>
+      <p1 className='re-p'>We cant't keep calm!</p1>
 
       <div class="review-grid">
         <div class="review-card">

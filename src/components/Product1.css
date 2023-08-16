@@ -93,11 +93,11 @@
   }
 
   .pr1-info h2 {
-    font-size: 28px; /* Adjust font size for smaller screens */
+    font-size: 26px; /* Adjust font size for smaller screens */
   }
 
   .pr1-info p {
-    font-size: 18px; /* Adjust font size for smaller screens */
+    font-size: 16px; /* Adjust font size for smaller screens */
   }
 
   .pr1-info .price {
@@ -106,10 +106,6 @@
 
   .price span {
     font-size: 16px; /* Adjust font size for smaller screens */
-  }
-
-  .pr1-info .btn-cont {
-    flex-direction: column; /* Stack buttons vertically */
   }
 
   .pr1-info .btn {
