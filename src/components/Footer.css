@@ -90,3 +90,38 @@
 .r li svg {
   margin-right: 5px; /* Adjust the space between the icon and text */
 }
+
+
+
+/* For screens up to 768px width (adjust as needed) */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column; /* Stack the divs vertically */
+  }
+
+  .l,
+  .r {
+    flex: 1; /* Make both sides take full width */
+    text-align: center;
+  }
+
+  .footer-list {
+    grid-template-columns: 1fr; /* Single column layout for links */
+  }
+
+  .footer-list li {
+    padding: 10px; /* Adjust padding for smaller spacing */
+  }
+
+  .footer-list a {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .l .title {
+    font-size: 40px; /* Adjust title font size for smaller screens */
+  }
+
+  .social {
+    font-size: 40px; /* Adjust social icon size for smaller screens */
+  }
+}
