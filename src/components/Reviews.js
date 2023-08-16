@@ -10,48 +10,58 @@ function Reviews() {
 
       <div class="review-grid">
         <div class="review-card">
-          <img src={require("../Media/op.jpg")} class="customer-image" alt='custumer-dp' />
-          <h3>Om Prakash Mallik</h3>
-          <p class="review-text">"so stylish and price is also affordable, i inshort its mind blowing."</p>
+          <div className='name-dp'>
+            <img src={require("../Media/op.jpg")} class="customer-image" alt='custumer-dp' />
+            <h3>Om Prakash Mallik</h3>
+          </div>
+          <p>⭐⭐⭐⭐</p>
+          <p class="review-text">"so stylish and also price is so affordable, inshort its a mind blowing sneaker."</p>
         </div>
 
         <div class="review-card">
           <img src={require("../Media/avatar.png")} class="customer-image" alt='custumer-dp' />
           <h3>John Doe</h3>
+          <p>⭐⭐⭐</p>
           <p class="review-text">"Great products and excellent service! Highly recommended."</p>
         </div>
 
         <div class="review-card">
           <img src={require("../Media/avatar.png")} class="customer-image" alt='custumer-dp' />
-          <h3>Jane Smith</h3>
+          <h3>JP</h3>
+          <p>⭐⭐⭐⭐⭐</p>
           <p class="review-text">"I'm so impressed with the quality of the items I purchased."</p>
         </div>
         <div class="review-card">
           <img src={require("../Media/amrit-dp.jpg")} class="customer-image" alt='custumer-dp' />
           <h3>Amrit Kumar</h3>
+          <p>⭐⭐⭐⭐</p>
           <p class="review-text">"It's looks fabulous in this price range, go for it."</p>
         </div>
 
         <div class="review-card">
           <img src={require("../Media/avatar.png")} class="customer-image" alt='custumer-dp' />
-          <h3>John Doe</h3>
+          <h3>Sachin Kr.</h3>
+          <p>⭐⭐⭐⭐</p>
           <p class="review-text">"Great products and excellent service! Highly recommended."</p>
         </div>
 
         <div class="review-card">
           <img src={require("../Media/avatar.png")} class="customer-image" alt='custumer-dp' />
           <h3>Jane Smith</h3>
+          <p>⭐⭐⭐⭐</p>
           <p class="review-text">"I'm so impressed with the quality of the items I purchased."</p>
         </div>
         <div class="review-card">
           <img src={require("../Media/avatar.png")} class="customer-image" alt='custumer-dp' />
           <h3>Om Prakash Mallik</h3>
+          <p>⭐⭐⭐⭐</p>
           <p class="review-text">it mind blowing</p>
         </div>
 
         <div class="review-card">
           <img src={require("../Media/avatar.png")} class="customer-image" alt='custumer-dp' />
           <h3>John Doe</h3>
+          <p>⭐⭐⭐</p>
           <p class="review-text">"Great products and excellent service! Highly recommended."</p>
         </div>
 
