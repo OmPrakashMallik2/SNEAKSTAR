@@ -16,7 +16,7 @@ function Footer() {
 
         <div className='l'>
           <div>
-            <h1 className='title'>SHOES</h1>
+            <h1 className='title'>SneakStar</h1>
           </div>
 
           <div className='footer-linkes'>
