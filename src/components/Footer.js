@@ -27,7 +27,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a className='social' href='https://www.instagram.com/mallik_75/'>
+                <a className='social' href='https://www.facebook.com/profile.php?id=100010378098581/'>
                   <FacebookIcon />
                 </a>
               </li>

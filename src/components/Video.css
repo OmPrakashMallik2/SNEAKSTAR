@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   z-index: 1;
+  padding: 0;
 }
 
 .Video video {
