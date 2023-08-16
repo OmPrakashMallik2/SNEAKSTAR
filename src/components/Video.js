@@ -20,7 +20,7 @@ function Video() {
   return (
     <div className="Video">
       <video ref={videoRef} autoPlay onClick={togglePlay}>
-        <source src={require("../Media/shoes_ad.mp4")} type="video/mp4" />
+        <source src={require("../Media/shoes-ad_Up261mtD.mp4")} type="video/mp4" />
       </video>
       <div className="play-pause-button" onClick={togglePlay}>
         <FontAwesomeIcon

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Home from './Home';
-// import Video from './Video';
+import Video from './Video';
 import Product1 from './Product1';
 import Product2 from './Product2';
 import Reviews from './Reviews';
@@ -11,7 +11,7 @@ function Main() {
     <div className="App">
       {/* < Nav /> */}
       < Home/>
-      {/* < Video /> */}
+      < Video />
       < Product1 />
       < Product2 />
       < Reviews/>
