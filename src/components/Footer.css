@@ -118,6 +118,8 @@
   }
 
   .l .title {
+    padding: 0;
+    margin: 0;
     font-size: 40px; /* Adjust title font size for smaller screens */
   }
 

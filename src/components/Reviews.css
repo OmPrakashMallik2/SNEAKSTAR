@@ -34,3 +34,36 @@
 .review-card h3 {
   color: black;
 }
+
+
+
+
+
+
+
+/* Media query for screens up to 768px width (adjust as needed) */
+@media (max-width: 768px) {
+  .review-grid {
+    grid-template-columns: 1fr; /* Single column layout for reviews */
+    gap: 10px; /* Adjust the gap between reviews */
+  }
+
+  .review-card {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .customer-image {
+    width: 80px; /* Adjust image size for smaller screens */
+    height: 80px;
+  }
+
+  .review-text {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .review-card h3 {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Rest of your existing CSS code */

@@ -74,3 +74,46 @@
   color: white;
   background-color: black;
 }
+
+
+
+/* Media query for screens up to 768px width (adjust as needed) */
+@media (max-width: 768px) {
+  .pr1 {
+    flex-direction: column-reverse; /* Reverse the order of flex items */
+  }
+
+  .pr1-pic,
+  .pr1-info {
+    flex-basis: 100%; /* Make both divs take full width */
+  }
+
+  .pr1-info {
+    padding: 20px; /* Adjust padding for spacing */
+  }
+
+  .pr1-info h2 {
+    font-size: 28px; /* Adjust font size for smaller screens */
+  }
+
+  .pr1-info p {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .pr1-info .price {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .price span {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .pr1-info .btn-cont {
+    flex-direction: column; /* Stack buttons vertically */
+  }
+
+  .pr1-info .btn {
+    padding: 8px 16px; /* Adjust button padding for smaller screens */
+    font-size: 16px; /* Adjust button font size for smaller screens */
+  }
+}

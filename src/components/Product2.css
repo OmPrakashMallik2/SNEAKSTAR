@@ -73,3 +73,46 @@
   color: black;
   background-color: white;
 }
+
+
+
+
+
+/* Media query for screens up to 768px width (adjust as needed) */
+@media (max-width: 768px) {
+  .pr2 {
+    flex-direction: column; /* Reverse the order of flex items */
+  }
+
+  .pr2-pic,
+  .pr2-info {
+    flex-basis: 100%; /* Make both divs take full width */
+  }
+
+  .pr2-info {
+    padding: 20px; /* Adjust padding for spacing */
+  }
+
+  .pr2-info h2 {
+    font-size: 28px; /* Adjust font size for smaller screens */
+  }
+
+  .pr2-info p {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .price {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .price span {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .pr2-info .btn {
+    padding: 8px 16px; /* Adjust button padding for smaller screens */
+    font-size: 16px; /* Adjust button font size for smaller screens */
+  }
+}
+
+/* Rest of your existing CSS code */
