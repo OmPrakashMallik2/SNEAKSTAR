@@ -61,3 +61,19 @@
 }
 
 
+/* For screens up to 768px width (adjust as needed) */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column; /* Stack the divs vertically */
+    padding-top: 20px; /* Adjust the padding for spacing */
+  }
+
+  .home-pic,
+  .home-info {
+    flex-basis: 100%; /* Make both divs take full width */
+  }
+
+  .home-info {
+    padding: 20px; /* Adjust the padding for spacing */
+  }
+}

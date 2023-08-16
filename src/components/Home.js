@@ -5,10 +5,12 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <div className='home'>
+
       <div className='home-pic'>
         <img src={require("../Media/combo.png")} alt="photu" />
         {/* <img src='https://d3vk3ilzkajryp.cloudfront.net/blanko-webp/king-with-x.webp' alt="photu" /> */}
       </div>
+      
       <div className='home-info'>
 
         <p className='heading'>BLACK & WHITE</p>

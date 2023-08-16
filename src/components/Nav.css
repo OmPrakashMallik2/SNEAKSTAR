@@ -1,55 +1,74 @@
 .nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #f0f0f0;
-    color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: black;
 }
 
 .left {
-    float: left;
+  float: left;
 }
 
-.title{
-    color: black;
-    padding-left: 10px;
-    text-decoration: none;
-    font-weight: 650;
-    font-size: 45px;
+.title {
+  color: black;
+  padding-left: 10px;
+  text-decoration: none;
+  font-weight: 650;
+  font-size: 45px;
 }
 
 .right {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .right li Link {
-    color: black;
+  color: black;
 }
 
 .right li {
-    /* color: black; */
-    margin: 0 20px;
-    font-size: 20px;
+  /* color: black; */
+  margin: 0 20px;
+  font-size: 20px;
 }
 
-.right li .cart{
-    color: black;
+.right li .cart {
+  color: black;
 }
 
 .right li .buynow {
-    margin-right: 10px;
-    font-size: small;
-    padding: 10px 40px;
-    text-decoration: none;
-    background-color: black;
-    color:white;
+  margin-right: 10px;
+  font-size: small;
+  padding: 10px 40px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+/* For screens up to 768px width (adjust as needed) */
+@media (max-width: 768px) {
+    
+  .title {
+    padding-left: 8px;
+    font-size: 34px;
+  }
+
+  .right li .buynow {
+    font-size: 10px;
+    padding: 10px 26px;
+  }
+
+  .right li {
+    margin: 2px 10px;
+    font-size: 16px;
+  }
 }
