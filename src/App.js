@@ -4,8 +4,8 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Main from './components/Main';
 import BuyNow from './components/BuyNow';
-import Product2Details from './components/Product2Details';
-import Product1Details from './components/Product1Details';
+import Productdetails2 from './components/Productdetails2';
+import Productdetails1 from './components/Productdetails1';
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       < Nav />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/pr1" element={<Product1Details />} />
-        <Route path="/pr2" element={<Product2Details />} />
+        <Route path="/pr1" element={<Productdetails1 />} />
+        <Route path="/pr2" element={<Productdetails2 />} />
         <Route path="/buynow" element={<BuyNow />} />
       </Routes>
       < Footer />
