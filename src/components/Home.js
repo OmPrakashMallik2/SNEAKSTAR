@@ -20,7 +20,7 @@ function Home() {
         <p className='disc-combo'>Unlock Savings: Get ₹100.00 Off on Prepaid Orders!</p>
 
         <div className='btn-cont'>
-          <Link to="/pr1" className='btn'>LEARN MORE</Link>
+          <Link to="/prcombo" className='btn'>LEARN MORE</Link>
           <Link to="/buynow" className='btn'>BUY NOW</Link>
         </div>
       </div>

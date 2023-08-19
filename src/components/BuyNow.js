@@ -5,7 +5,7 @@ function BuyNow() {
   return (
     <div className='buynow'>
       <h1>Buy now</h1>
-      <h1>Buy now</h1>
+      <h1>Not build yet</h1>
       <h1>Buy now</h1>
       <h1>Buy now</h1>
       <h1>Buy now</h1>

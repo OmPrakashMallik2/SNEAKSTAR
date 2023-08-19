@@ -6,6 +6,7 @@ import Main from './components/Main';
 import BuyNow from './components/BuyNow';
 import Productdetails2 from './components/Productdetails2';
 import Productdetails1 from './components/Productdetails1';
+import ProductCombo from './components/ProductCombo';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/pr1" element={<Productdetails1 />} />
         <Route path="/pr2" element={<Productdetails2 />} />
+        <Route path="/prcombo" element={<ProductCombo/>} />
         <Route path="/buynow" element={<BuyNow />} />
       </Routes>
       < Footer />

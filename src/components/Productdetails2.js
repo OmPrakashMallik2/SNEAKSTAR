@@ -1,43 +1,11 @@
 import React from 'react'
 import "./Productdetails2.css";
+import Product2 from './Product2';
 
 function Productdetails2() {
   return (
     <div className='Product2Details'>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-      <h1>Product 2 Details</h1>
-
+      <Product2/>
     </div>
   )
 }
