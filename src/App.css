@@ -1,6 +1,5 @@
 /* Import Montserrat font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
-
 .App {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -24,3 +23,4 @@
   border-radius: 4px;
   color: white;
 }
+/* TESTING */
